@@ -5,7 +5,7 @@ body {font-family: 'Open Sans', sans-serif;}
 
 
 /* Month header */
-.month {
+.container-fluid {
   padding: 25px 25px;
   width: 100%;
   background: #a8a1b9;
@@ -13,31 +13,29 @@ body {font-family: 'Open Sans', sans-serif;}
 
 }
 
-/* Month list */
-.month ul {
-  margin: 0;
-  padding: 0;
-}
 
-.month ul li {
-  color: white;
-  font-size: 20px;
-  letter-spacing: 3px;
-}
-
-/* Previous button inside month header */
-.month .prev {
+/* Previous button inside container */
+.container-fluid #left {
   float: left;
   padding-left: 200px;
+  font-size: 15px;
+  color: paleturquoise
 
 }
 
 /* Next button */
-.month .next {
+.container-fluid #right {
   float: right;
   padding-right: 200px;
-
+  font-size: 15px;
+  color: paleturquoise;
 }
+
+.container-fluid #right:hover {
+  font-size: 20px;
+}
+
+
 table, td {
   border: 1px solid brown;
   border-collapse: collapse;
